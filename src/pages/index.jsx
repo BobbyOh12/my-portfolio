@@ -63,7 +63,7 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm Bobby Oh.
         </BigTitle>
         <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
       </Hero>
@@ -71,13 +71,13 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
+            title="Good Neighbor"
             link="https://www.behance.net/gallery/58937147/Freiheit"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            This project is my award winning entry to ADDIHacks Long Beach.
           </ProjectCard>
-          <ProjectCard
+          {/* <ProjectCard
             title="Harry Potter"
             link="https://www.behance.net/gallery/52915793/Harry-Potter"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
@@ -97,7 +97,7 @@ const Index = () => (
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             A fantasy image manipulation relocating the habitat of wild animals.
-          </ProjectCard>
+          </ProjectCard> */}
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
@@ -105,16 +105,15 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            I am a Southern California based Full Stack Web Developer that loves creating awesome web applications.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+        I am skilled in designing and producing highly functional, user-friendly web applications. 
+        Thoroughly familiar with current front-end, middle-tier and back-end tools and protocols; produced an award-winning 
+        application for the City of Long Beach facilitating community response and interaction related to critical incidents 
+        and assisting individuals in need. Equipped with a solid business and financial services background through experience 
+        as a data and portfolio analyst for major banks and investment support institutions.
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -127,9 +126,9 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
+          {/* &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
           <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          <a href="https://www.lekoarts.de">LekoArts</a>. */}
         </Footer>
       </Contact>
     </Parallax>
