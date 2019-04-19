@@ -121,7 +121,7 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:bobby.12oh@yahoo.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://www.linkedin.com/in/bobby-oh/">LinkedIn</a> &{' '}
+            <a href="https://www.linkedin.com/in/bobby-oh/">LinkedIn</a>
           </ContactText>
         </Inner>
         <Footer>
