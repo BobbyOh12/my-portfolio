@@ -72,7 +72,7 @@ const Index = () => (
         <ProjectsWrapper>
           <ProjectCard
             title="Good Neighbor"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            link="https://devpost.com/software/goodneighbor"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             This project is my award winning entry to ADDIHacks Long Beach.
@@ -120,7 +120,7 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
+            Say <a href="mailto:bobby.12oh@yahoo.com">Hi</a> or find me on other platforms:{' '}
             <a href="https://www.linkedin.com/in/bobby-oh/">LinkedIn</a> &{' '}
           </ContactText>
         </Inner>
